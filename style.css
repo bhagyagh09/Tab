@@ -1,0 +1,30 @@
+.main {
+  width: 400px;
+  height: auto;
+  border : 1px solid #000;
+}
+ul {
+  list-style-type: none;
+  border-bottom: 1px solid #000;
+  margin:0;
+  padding:0;
+}
+li {
+  display: inline-block;
+  text-align: center;
+}
+li a.tabH {
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+a.tabH.active {
+    color: red;
+}
+.tabContent {
+  display:none;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab example</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="tab.js"></script>
+</head>
+<body onload="docLoaded()">
+  <div class="main">
+    <ul>
+    <li><a href="javascript:void(0)" class="tabH active" onclick="selectTab(event,'tab1')" id="defaultTab">Tab 1</a></li>
+    <li><a href="javascript:void(0)" class="tabH" onclick="selectTab(event,'tab2')">Tab 2</a></li>
+    <li><a href="javascript:void(0)" class="tabH" onclick="selectTab(event,'tab3')">Tab 3</a></li>
+    </ul>
+    <div>
+      <div class="tabContent" id="tab1">
+        <p>Content1</p>
+      </div>
+      <div class="tabContent" id="tab2">
+        <p>Content2</p>
+      </div>
+      <div class="tabContent" id="tab3">
+        <p>Content3</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
